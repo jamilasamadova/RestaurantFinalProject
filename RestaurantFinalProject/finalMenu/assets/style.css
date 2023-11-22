@@ -1,0 +1,317 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+.navbar .bgimg {
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image: url(/assets/images/davide-cantelli-jpkfc5_d-DI-unsplash.jpg);
+    opacity: 0.5;
+    width: 1440px;
+    height: 703px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0px auto;
+    align-items: center;
+}
+
+.navbar .container .icon a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar .container ul {
+    display: flex;
+    margin-right: 10px;
+}
+
+.navbar .container ul li {
+    list-style: none;
+}
+
+.navbar .container ul li a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #000;
+}
+
+.hero {
+    width: 100%;
+}
+
+.hero .container .heropart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding-top: 10px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.hero .container .heropart ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.hero .container .heropart ul li a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: black;
+}
+
+.hero .container .heropart button {
+    border: 1px solid #000;
+    background-color: #ffff;
+    padding: 12px 30px;
+}
+
+.hero .container .textcontent {
+    text-align: center;
+}
+
+.hero .container .textcontent h1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 600px;
+    letter-spacing: 0;
+    font-style: normal;
+    font-family: Garamond, serif;
+}
+
+.menupart .container .menucontent {
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 200px;
+}
+
+.menupart .container .menucontent img {
+    margin: 8px;
+}
+
+.menupart .container .menucontent .img1 {
+    width: 297px;
+    height: 401px;
+}
+
+.menupart .container .menucontent .img2 {
+    width: 343px;
+    height: 514px;
+}
+
+.menupart .container .headtext {
+    margin-left: 728px;
+    bottom: 450px;
+    position: relative;
+    font-size: 24px;
+    color: #dd5903;
+}
+
+.menupart .menusection {
+    position: absolute;
+    top: 650px;
+    left: 461px;
+  
+}
+
+.menupart .menusection .linewrapper {
+    display: flex;
+    align-items: baseline;
+    padding: 0 343px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    font-style: Cormorant Garamond, serif;
+}
+
+.menupart .menusection .middle {
+    border-bottom: 1px dotted #aaa;
+    flex-grow: 1;
+    margin: 0 5px;
+    padding: 0 219px;
+}
+
+.menupart .menusection .ingredients {
+    padding: 0 343px;
+    color: #d3d3d3;
+}
+
+.menupart2 .container .headtext {
+    left: 106px;
+    bottom: 450px;
+    position: relative;
+    font-size: 24px;
+    color: #dd5903;
+}
+
+.menupart2 .menusection {
+    position: absolute;
+    top: 1408px;
+    right: 577px;
+}
+
+.menupart2 .menusection .linewrapper {
+    display: flex;
+    align-items: baseline;
+    padding: 0 238px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    font-style: Cormorant Garamond, serif;
+}
+
+.menupart2 .menusection .middle {
+    border-bottom: 1px dotted #aaa;
+    flex-grow: 1;
+    margin: 0 5px;
+    padding: 0 166px;
+}
+
+.menupart2 .menusection .ingredients {
+    padding: 0 343px;
+    color: #d3d3d3;
+}
+.menupart2 .container .menucontent {
+    vertical-align: middle;
+    display: flex;
+    margin-top: 200px;
+    margin-left: 677px;
+}
+
+
+.menupart2 .container .menucontent img {
+    margin: 8px;
+}
+
+.menupart2 .container .menucontent .img1 {
+    width: 343px;
+    height: 514px;
+}
+
+.menupart2 .container .menucontent .img2 {
+    width: 297px;
+    height: 401px;
+}
+
+.menupart3 .container .headtext {
+    margin-left: 720px;
+    bottom: 640px;
+    position: relative;
+    font-size: 24px;
+    color: #dd5903;
+}
+
+.menupart3 .menusection {
+    position: absolute;
+    top: 2051px;
+    left: 450px;
+}
+
+.menupart3 .menusection .linewrapper {
+    display: flex;
+    align-items: baseline;
+    padding: 0 343px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    font-style: Cormorant Garamond, serif;
+}
+
+.menupart3 .menusection .middle {
+    border-bottom: 1px dotted #aaa;
+    flex-grow: 1;
+    margin: 0 5px;
+    padding: 0 200px;
+}
+
+.menupart3 .menusection .ingredients {
+    padding: 0 343px;
+    color: #d3d3d3;
+}
+
+.menupart3 .container .menucontent img {
+    width: 600px;
+    height: 792px;
+    position: relative;
+    top: 100px;
+    left: 48px;
+}
+
+.menupart4 .container .headtext {
+    left: 45px;
+    bottom: 529px;
+    position: relative;
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #dd5903;
+}
+
+.menupart4 .menusection {
+    position: absolute;
+    top: 3000px;
+    margin-left: -296px;
+}
+
+.menupart4 .menusection .linewrapper {
+    display: flex;
+    align-items: baseline;
+    padding: 0 343px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    font-style: Cormorant Garamond, serif;
+}
+
+.menupart4 .menusection .middle {
+    border-bottom: 1px dotted #aaa;
+    flex-grow: 1;
+    margin: 0 5px;
+    padding: 0 97px;
+}
+
+.menupart4 .menusection .ingredients {
+    padding: 0 343px;
+    color: #d3d3d3;
+}
+
+.menupart4 .container .menucontent {
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 600px;
+}
+
+.menupart4 .container .menucontent img {
+    margin: 8px;
+}
+
+.menupart4 .container .menucontent .img1 {
+    width: 343px;
+    height: 514px;
+}
+
+.menupart4 .container .menucontent .img2 {
+    width: 297px;
+    height: 401px;
+}
+
+/* .hero .container .heropart img {} */
